@@ -1,0 +1,62 @@
+Given the assignment a = b = 10, what happens if you later set b = 20? What is the value of a? Explain why.
+What will be the output and the type of each variable?
+
+x = 2
+y = 2.0
+z = "2"
+w = x + int(z)
+v = str(x) + z
+Explain your answer.
+
+What is the difference between mutable and immutable data types in Python? Name three types from each category.
+Given x = [1, 2, 3] and y = x, then x[0] = 9. What are the values of x and y? Explain the behavior.
+How does Python treat variable names that have the same value but are of different data types?
+For example, what is the result of 3 == 3.0 and 3 is 3.0?
+What is the result of the following code? Explain your answer.
+
+a = (5)
+b = (5,)
+print(type(a))
+print(type(b))
+
+What happens if you try to use a list as a dictionary key? Why?
+What is the difference between None, 0, False, and "" in Python? Are they the same or different as variables? How does Python treat them in conditional statements?
+Does Python automatically convert between integer and float types? Show a code example and explain what happens.
+What will be the output and types in this code?
+
+a = "5"
+b = 5
+c = a * b
+d = b * a
+print(c, d)
+
+Can variable names start with an underscore (_) or contain special characters like $ or @? Explain the rules.
+What is the difference between single quotes ('), double quotes ("), and triple quotes (''' or """) for strings? Are they the same data type?
+Explain the difference between an empty list [], an empty tuple (), and an empty dictionary {} in terms of their types and mutability.
+Given the code:
+x = [1, 2, 3]
+y = x
+x = [4, 5, 6]
+print(y)
+
+What is the value of y and why?
+How does variable assignment differ between mutable and immutable objects? Illustrate with an example.
+Explain what happens here:
+1
+2
+3
+x = 1000
+y = 1000
+print(x is y)
+
+Why might this print False?
+How do you convert between data types (e.g., string to int, int to float, list to tuple) in Python? Show a code example.
+What will be printed?
+
+x = "10"
+y = 2
+print(x * y)
+print(y * x)
+Why?
+Is type(5) == int always True? Is isinstance(5, int) always True? Explain the difference.
+Can a Python variable change its data type after assignment? Give an example and explain the implications.

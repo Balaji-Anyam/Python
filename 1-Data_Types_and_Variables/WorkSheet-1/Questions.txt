@@ -1,0 +1,25 @@
+Assign two integer variables and print their sum, difference, product, and quotient.
+Store two float numbers, add them, and print the result rounded to two decimal places.
+Concatenate two strings stored in separate variables with a space between them and display.
+Repeat a given string five times and print the result.
+Compare two integers and print boolean results for each comparison (==, !=, >, <, >=, <=).
+Log Session integer, float, string, and boolean variables, and use the type() function to print each data type.
+Convert a numeric string ("50") to an integer and a float, then print the converted values and their types.
+Add an integer (25) and a numeric string ("25") after converting the string explicitly, and print the result.
+Assign two complex numbers, then print their sum, difference, and product.
+Identify valid Python variable names: data1, 1data, _data, data_1, data-1, True, totalSum.
+Assign "Python", 3.14, and True to variables using a single-line assignment, and print each value.
+Swap two variable values in one line and print the values before and after swapping.
+Assign an integer to a variable, then reassign it to a float and string sequentially, printing type and value after each step.
+Define a constant PI = 3.14159 and calculate the circumference of a circle with radius 5, then print the result.
+Assign your name, age, and favorite number to variables and display them using an f-string.
+Calculate and print the quotient and remainder of two integers using // and %.
+Use augmented assignment (+=, -=, *=, /=) on a variable initialized as 10, printing its value at each step.
+Assign and print the string Python's "syntax" is easy, properly using escape characters.
+Perform arithmetic (+, *) with boolean values (True, False) and print the results.
+Add an integer (5) to a string ("Hello"), observe the error, and explain why it occurs.
+Assign a very large integer to a variable and print its value and data type.
+Assign the same value (100) simultaneously to three variables (a, b, and c), then print each variable.
+Assign None to a variable, then print its value and type.
+Perform arithmetic between integer (10) and float (3.5) variables, then print the result and its type.
+Slice the string "PythonProgramming" into "Python" and "Programming" separately and print both results.

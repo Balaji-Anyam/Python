@@ -1,0 +1,66 @@
+Given a voltage reading, print "Under Voltage", "Nominal", or "Over Voltage".
+(Nominal is between 3.0V and 3.3V inclusive.)
+Input: 3.35
+Output: Over Voltage
+
+Take an 8-bit register value and print if the **MSB** (most significant bit) is set or not.
+Input: 0b10010010
+Output: MSB set
+
+Enter a temperature and print "Overheat" (>75°C), "Normal" (25-75°C), or "Low Temp" (<25°C).
+Input: 18
+Output: Low Temp
+
+Given two pin logic levels (0 or 1), print the type of logic gate output if these were inputs to an AND, OR, and XOR gate.
+Input: 1, 0
+Output: AND: 0, OR: 1, XOR: 1
+
+If a sensor value is outside the range 100–900, print "Sensor Fault". If within, print "Sensor OK".
+Input: 950
+Output: Sensor Fault
+
+Take an error code (integer). Print "Critical" if code ≥1000, "Warning" if 100–999, and "Info" if <100.
+Input: 230
+Output: Warning
+
+Given three boolean flags: `power_on`, `overcurrent`, `overvoltage`, print:
+- "System Safe" if only `power_on` is True.
+- "Shut Down: Overcurrent" if `overcurrent` is True.
+- "Shut Down: Overvoltage" if `overvoltage` is True.
+- "Critical Failure" if both faults are True.
+Input: True, True, False
+Output: Shut Down: Overcurrent
+
+Given a digital input value (0–255), determine and print which of 4 quadrants it falls into:
+- 0–63, 64–127, 128–191, 192–255
+
+Enter a signal frequency (Hz). Print "Low Band" (<1000), "Mid Band" (1000–9999), "High Band" (10000–99999), or "Out of Range".
+Input: 8000
+Output: Mid Band
+
+Given three sensor readings, print "Majority High" if at least two readings are above a threshold (e.g., 50), otherwise "Majority Low".
+Input: 40, 65, 70
+Output: Majority High
+
+Enter a 16-bit value and print if parity (number of 1s) is even or odd.
+Input: 0xAAAA
+Output: Parity: Even
+
+Given a voltage and current reading, print "Power OK" if both are in safe ranges, otherwise print specific error:
+- Voltage out of 3.0–3.3V: "Voltage Error"
+- Current out of 10–500mA: "Current Error"
+- Both out: "Power Error"
+
+Given the status of three LEDs (on/off as 1/0), print which LEDs are ON. If all are off, print "All LEDs off".
+Input: 0, 1, 0
+Output: LED2 ON
+
+Accept a device mode value:
+- 0: "Standby"
+- 1: "Active"
+- 2: "Fault"
+- Any other: "Unknown mode"
+
+Enter two analog readings. Print "Match" if they are within 5 units of each other, "No Match" otherwise.
+Input: 98, 101
+Output: Match
