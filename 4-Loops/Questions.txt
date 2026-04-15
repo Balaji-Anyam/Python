@@ -1,16 +1,23 @@
 Print all 3-digit numbers such that the sum of the cubes of their digits equals the number itself.
 Example: 153 → 1³ + 5³ + 3³ = 153
+
 For a given number, print its multiplication table from 1 to 10, but don’t use the * operator.
+
 Using only loops, print all prime numbers between 2 and n (n is user input).
+
 For a given number of rows, print the following number pyramid pattern:
 1
 1 2
 1 2 3
 ...
 1 2 ... n
+
 Take an integer input and print its digits in reverse order (don’t use slicing or strings).
+
 Check if the input number reads the same backward as forward, using only loops and arithmetic.
+
 Ask for two numbers and compute their Greatest Common Divisor (GCD) using repeated subtraction or division with loops.
+
 Print a hollow square pattern of size n (n ≥ 3).
 Example for n = 5:
 *****
@@ -18,26 +25,38 @@ Example for n = 5:
 *   *
 *   *
 *****
+
 Take an integer and, using only loops, sum its digits repeatedly until only a single digit remains.
 Example: 9875 → 9+8+7+5=29 → 2+9=11 → 1+1=2
+
 Input a number and count how many digits it contains, using only arithmetic and loops.
+
 Take a number as input and calculate its factorial using loops (no recursion).
+
 For n rows, print a right-aligned triangle pattern:
     *
    **
   ***
  ****
 *****
+
 Print the sum of all odd numbers from 1 up to n (inclusive), using loops only.
+
 Check if a given number is a perfect number (sum of divisors excluding itself), using only loops.
+
 Print all numbers from n down to 1 using a single loop.
+
 Input an integer and count how many times 0 appears in it (no strings or lists).
+
 Using only loops and arithmetic, compute the sum of all numbers below 1000 that are multiples of 3 or 5.
+
 Input a number and find its smallest divisor greater than 1 (using only loops).
+
 For n rows, print the following double triangle pattern:
 *
 **
 ***
 **
 *
+
 Input n and print the nth Fibonacci number using only variable updates and a loop (no lists, no recursion).
