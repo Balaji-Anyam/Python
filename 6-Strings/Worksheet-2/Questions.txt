@@ -1,0 +1,72 @@
+Convert Snake Case to Pascal Case
+Explanation: Change a snake_case string (words separated by underscores) into PascalCase (words start with uppercase, no underscores).
+Input: "my_variable_name"
+Expected Output: "MyVariableName"
+Find the Position of a Character in the k-th Word
+Explanation: Given a list of strings, find the position of a specific character in the k-th word.
+Input: List = ["hello", "world"], k = 2, char = "r"
+Expected Output: Position: 2
+Mirror Image of a String
+Explanation: Reverse the string as if viewing in a mirror.
+Input: "abcd"
+Expected Output: "dcba"
+Replace Multiple Words at Once
+Explanation: Simultaneously replace several different words in a string with new ones.
+Input: String = "I like apples and bananas.", Replace: {"apples": "oranges", "bananas": "grapes"}
+Expected Output: "I like oranges and grapes."
+Remove Punctuation from a String
+Explanation: Remove all punctuation marks, keeping only letters, digits, and spaces.
+Input: "Hello, world! How are you?"
+Expected Output: "Hello world How are you"
+Check if Two Strings are Rotationally Equivalent
+Explanation: Check if one string can be rotated (circularly shifted) to match the other.
+Input: "abcde", "cdeab"
+Expected Output: Rotationally equivalent: Yes
+Generate a Random Binary String
+Explanation: Log Session a string of a given length containing only random 0s and 1s.
+Input: Length = 8
+Expected Output: e.g., "10101001"
+Reverse Sort a String
+Explanation: Sort the characters of the string in descending order.
+Input: "python"
+Expected Output: "ytponh"
+Validate a Password String
+Explanation: Check if a password meets certain conditions (length, special characters, etc.).
+Input: "MyPass123@"
+Expected Output: Valid password: Yes
+Pad a String with Characters
+Explanation: Add extra characters (like *, space, or 0) to the left or right of a string to reach a desired length.
+Input: "cat", Length = 6, Pad char = "*"
+Expected Output: "***cat"
+Print Superscript and Subscript in String Output
+Explanation: Show part of the string as superscript or subscript, for math or scientific notation.
+Input: "E = mc2" (display 2 as superscript)
+Expected Output: "E = mc²"
+Check for Pangram
+Explanation: Verify if a string contains every letter of the alphabet at least once.
+Input: "The quick brown fox jumps over the lazy dog"
+Expected Output: Is pangram: Yes
+Sort List of Dates Given as Strings
+Explanation: Sort dates given as strings in chronological order.
+Input: ["2021-05-21", "2019-01-12", "2020-12-15"]
+Expected Output: ['2019-01-12', '2020-12-15', '2021-05-21']
+Split String into Groups of n Characters
+Explanation: Divide a string into equal-sized chunks.
+Input: "abcdefgh", n = 3
+Expected Output: ['abc', 'def', 'gh']
+Extract Indices of Substring Matches
+Explanation: Find all starting positions of a substring in a string.
+Input: String = "abracadabra", Substring = "abra"
+Expected Output: [0, 7]
+Remove After a Substring
+Explanation: Remove everything after a given substring in a string.
+Input: String = "abcdeFGhiJK", Substring = "FG"
+Expected Output: "abcdeFG"
+Remove Redundant Substrings from a List
+Explanation: From a list of strings, remove repeated substring patterns.
+Input: ["hellohello", "world", "testtesttest"]
+Expected Output: ["hello", "world", "test"]
+Filter Strings with a Combination of k Substrings
+Explanation: From a list, select only the strings that contain all of a set of k substrings.
+Input: List = ["applebanana", "apple", "banana", "applebananacherry"], Substrings = ["apple", "banana"]
+Expected Output: ["applebanana", "applebananacherry"]

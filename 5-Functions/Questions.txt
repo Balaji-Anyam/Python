@@ -1,152 +1,116 @@
 Question: Write a function print_details(name, age) that prints a sentence using both parameters.
 Sample data:
-1
 print_details("Alice", 25)
 Expected output:
-1
 Name: Alice, Age: 25
+
 Question: Write a function multiply(x, y) that returns the product of its two arguments.
 Sample data:
-1
-2
 result = multiply(4, 5)
 print(result)
 Expected output:
-1
 20
+
 Question: Write a function greet_person(name, greeting) that prints a personalized message like "Hello, John!" using the arguments.
 Sample data:
-1
 greet_person("John", "Hi")
 Expected output:
-1
 Hi, John!
+
 Question: Write a function area_of_circle(radius) that returns the area (πr²) of a circle for the given radius.
 Sample data:
-1
 print(area_of_circle(3))
 Expected output:
-1
 28.274333882308138
+
 Question: Write a function is_negative(number) that returns True if the number is negative, else False.
 Sample data:
-1
-2
 print(is_negative(-7))
 print(is_negative(0))
 Expected output:
-1
-2
 True
 False
+
 Question: Write a function grade(score) that returns 'A' if score ≥ 90, 'B' if 80 ≤ score < 90, 'C' if 70 ≤ score < 80, and 'F' for anything less.
 Sample data:
-1
-2
-3
 print(grade(85))
 print(grade(72))
 print(grade(50))
 Expected output:
-1
-2
-3
 B
 C
 F
+
 Question: Write a function sign(num) that returns 'Positive' if num > 0, 'Negative' if num < 0, and 'Zero' if num == 0.
 Sample data:
-1
-2
-3
 print(sign(10))
 print(sign(-4))
 print(sign(0))
 Expected output:
-1
-2
-3
 Positive
 Negative
 Zero
+
 Question: Write a function power(base, exponent=2) that returns base raised to exponent (default is square).
 Sample data:
-1
-2
 print(power(3))
 print(power(2, 5))
 Expected output:
-1
-2
 9
 32
+
 Question: Write a function introduction(name, country='India') that prints a message introducing the person and their country.
 Sample data:
-1
-2
 introduction("Sara")
 introduction("Alex", "USA")
 Expected output:
-1
-2
 My name is Sara and I am from India.
 My name is Alex and I am from USA.
+
 Question: Write a function calculate(a, b) that returns both the sum and difference of a and b.
 Sample data:
-1
-2
-3
 s, d = calculate(10, 3)
 print("Sum:", s)
 print("Difference:", d)
 Expected output:
-1
-2
 Sum: 13
 Difference: 7
+
 Question: Write a function string_stats(s) that returns the number of vowels, consonants, and digits in the string s.
 Sample data:
-1
 print(string_stats("Hello123"))
 Expected output:
-1
 (2, 5, 3)
+
 Question: Write a function factorial(n) that uses recursion to calculate the factorial of a number.
 Sample data:
-1
 print(factorial(5))
 Expected output:
-1
 120
+
 Question: Write a recursive function sum_list(lst) to return the sum of all elements in a list.
 Sample data:
-1
 print(sum_list([1, 2, 3, 4]))
 Expected output:
-1
 10
+
 Question: Write a recursive function reverse_string(s) that returns the reversed string.
 Sample data:
-1
 print(reverse_string("python"))
 Expected output:
-1
 nohtyp
+
 Question: Write a recursive function fibonacci(n) that returns the nth Fibonacci number.
 Sample data:
-1
 print(fibonacci(6))
 Expected output:
-1
 8
+
 Question: Write a function min_max(numbers) that returns both the smallest and largest number in a list (use returning multiple values).
 Sample data:
-1
-2
-3
 small, large = min_max([8, 3, 5, 2, 10])
 print("Smallest:", small)
 print("Largest:", large)
 Expected output:
-1
-2
+Smallest: 2
+Largest: 10

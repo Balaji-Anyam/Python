@@ -1,0 +1,153 @@
+Check if a String is a Palindrome or Symmetrical
+Explanation: A palindrome reads the same forwards and backwards (e.g., "madam"). A symmetrical string has matching halves.
+Input: "madam"
+Expected Output:
+Palindrome: Yes
+Symmetrical: Yes
+
+Find the Length of a String
+Explanation: Count the total characters (including spaces) in a string.
+Input: "hello world"
+Expected Output: Length: 11
+
+Reverse Words in a String
+Explanation: Reverse the order of words in a sentence, not the letters.
+Input: "I love Python"
+Expected Output: "Python love I"
+
+Remove the i-th Character from a String
+Explanation: Remove the character at a given index in a string (starting from 0).
+Input: String = "Python", i = 2
+Expected Output: "Pythn"
+
+Count Vowels in a String Using Sets
+Explanation: Find how many vowels (a, e, i, o, u) are in the string, using sets for efficiency.
+Input: "education"
+Expected Output: Vowels Count: 5
+
+Eliminate Duplicate Characters from a String
+Explanation: Log Session a new string containing only the first occurrence of each character.
+Input: "programming"
+Expected Output: "progamin"
+
+Identify the Least Frequent Character in a String
+Explanation: Find the character(s) that occur(s) the fewest times in a string.
+Input: "statistics"
+Expected Output: Least frequent character: 'a'
+
+Find the Maximum Frequency Character
+Explanation: Determine which character appears most frequently in the string.
+Input: "banana"
+Expected Output: Maximum frequency character: 'a'
+
+Check if a String Contains Special Characters
+Explanation: Check if the string contains characters other than letters or numbers.
+Input: "Hello@123"
+Expected Output: Contains special character: Yes
+
+Generate Random Strings Until a Target String is Formed
+Explanation: Keep generating random strings until you produce the target string.
+Input: Target = "abc"
+Expected Output: Randomly generated 'abc' after N attempts (N will vary)
+
+Check If a String is a Binary String
+Explanation: Test if the string contains only '0' and '1'.
+Input: "101101"
+Expected Output: Is binary string: Yes
+
+Find Close Matches for a String in a List
+Explanation: Find list entries that are similar to the given word (helpful for typo correction).
+Input: Target = "apple", List = ["apply", "apples", "ape", "maple"]
+Expected Output: Close matches: ['apply', 'apples']
+ 
+Find Uncommon Words Between Two Strings
+Explanation: List words present in only one of the two strings.
+Input: "red blue green", "blue yellow red"
+Expected Output: Uncommon words: ['green', 'yellow']
+
+Swap Commas and Dots in a String
+Explanation: Replace commas with dots and dots with commas.
+Input: "23,45.89,78.90"
+Expected Output: "23.45,89.78,90"
+
+Generate All Permutations of a String
+Explanation: List all possible ways to rearrange the characters.
+Input: "abc"
+Expected Output: ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+
+Detect URLs Within a String
+Explanation: Extract all URLs from the string.
+Input: "Check this link: https://openai.com and http://github.com"
+Expected Output: URLs found: ['https://openai.com', 'http://github.com']
+
+Execute Code Stored in a String
+Explanation: Run the code present in the string (useful but risky if input is untrusted).
+Input: "print(5+2)"
+Expected Output: 7
+
+Print the Middle Character of a String
+Explanation: Display the character(s) at the center of the string.
+Input: "python"
+Expected Output: Middle character: 't' and 'h'
+
+Convert Integer to String and Vice Versa
+Explanation: Change a number to a string, and a string of digits to an integer.
+Input: Integer = 123, String = "456"
+Expected Output:
+Integer to string: '123'
+String to integer: 456
+
+Split a String into a List of Characters
+Explanation: Break the string into individual characters.
+Input: "dog"
+Expected Output: ['d', 'o', 'g']
+
+Convert a List or Tuple of Characters to a String
+Explanation: Combine list/tuple elements into a single string.
+Input: ['p', 'y', 't', 'h', 'o', 'n']
+Expected Output: "python"
+
+Sort a List of Strings Alphabetically
+Explanation: Arrange the list of strings in lexicographical order.
+Input: ["pear", "apple", "banana"]
+Expected Output: ['apple', 'banana', 'pear']
+
+Convert a String to a Set (Unique Characters)
+Explanation: Keep only unique characters from the string.
+Input: "balloon"
+Expected Output: {'b', 'a', 'l', 'o', 'n'}
+
+Generate All Valid IP Addresses from a String
+Explanation: Given a string of digits, form all possible valid IP addresses.
+Input: "25525511135"
+Expected Output: ['255.255.11.135', '255.255.111.35']
+
+Convert Numeric Words to Actual Numbers
+Explanation: Replace words like 'one', 'two' with their numeric equivalents.
+Input: "I have one apple and two oranges."
+Expected Output: "I have 1 apple and 2 oranges."
+
+Find the Location of a Word in a String
+Explanation: Find the index where a word first appears in the string.
+Input: String = "welcome to python", Word = "python"
+Expected Output: Position: 11
+
+Frequency of Consecutive Characters
+Explanation: Count how many times each character repeats in sequence.
+Input: "aabccddd"
+Expected Output: {'a': 2, 'b': 1, 'c': 2, 'd': 3}
+
+Rotate a String by k Positions
+Explanation: Shift characters in the string to the right by k positions.
+Input: String = "hello", k = 2
+Expected Output: "lohel"
+
+Minimum Rotations to Get the Original String
+Explanation: Count the rotations needed for a string to return to its original form.
+Input: "abcde"
+Expected Output: 5
+
+Count Frequency of Words in String (Short Form)
+Explanation: Show how many times each word appears.
+Input: "apple apple orange"
+Expected Output: {'apple': 2, 'orange': 1}
